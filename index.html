@@ -558,6 +558,8 @@ function init_movie(){
 <style>
     .sec2-cont {background: var(--main-color);position: relative;}
     .sec2-cont::before {content:''; display: block; width:100%; height:100%; background: linear-gradient(180deg, rgba(206, 30, 40, 0.00) 67.86%, #A60406 100%), #CE1E28; position: absolute; bottom:0; left:0;}
+    
+.sec2-cont__banner {background: url(https://dolgyeok-homepage.s3.ap-southeast-2.amazonaws.com/wating.gif) no-repeat center / cover;width: 100%;height: 32.75em;position: relative;z-index: 1;}
     .sec2-sale {position: relative; z-index: 1; margin-top: -5.375em; padding-bottom: 11.375em;}
     .sec2-sale::after {content:''; width:100%; aspect-ratio:1/0.3485; background: url(image/sec2-sale_bg01.png) no-repeat center top / 0%; top:5.375em; position: absolute; opacity: 0; transition:all ease 1s;}
     .sec2-sale.active::after {opacity: 1; background: url(image/sec2-sale_bg01.png) no-repeat center top / 100%;}
