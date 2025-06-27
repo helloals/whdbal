@@ -825,10 +825,12 @@ function init_movie(){
 </style>
 <style>
      .slider-container {
-      width: 100%;
+      width: 130%;
       overflow: hidden;
       height: 50vh;
       position: relative;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     .slider-track {
@@ -877,7 +879,7 @@ function init_movie(){
                 <h2 class="sec3-tit__title agro">투자비용 최단 회수기간 <span>1개월!</span></h2>
             </div>
             <img src="./KakaoTalk_20250626_154006690.png" alt=""><br>
-            <span class="blink-text">60%이상</span> <img src="./화살표.png" style="margin-top: -80px;" class="rotating-img" id="rotatingImg"><span style="font-size: 0.38rem;">높은 재주문율!</span><br><br><br><br>
+            <span class="blink-text agro">60%이상</span> <img src="./화살표.png" style="margin-top: -80px;" class="rotating-img" id="rotatingImg"><span style="font-size: 0.38rem;">높은 재주문율!</span><br><br><br><br>
             <div class="slider-container">
                 <div class="slider-track">
                     <div class="slide"><img src="KakaoTalk_20250613_3jpg.jpg" alt="슬라이드1" /></div>
@@ -1634,8 +1636,8 @@ $(function(){
         <div class="sec6-tit" data-aos="fade-up">
             <figure class="sec6-tit__figure"><img src="image/sec6-tit_img01.png" alt=""></figure>
             <p class="sec6-tit__cate">Brand Introduction</p>
-            <h2 class="sec6-tit__title agro">Since2022-의정부 C급상권에서 <br>
-            단돈 천만원으로 시작한 돌격닭강정</h2>
+            <h2 class="sec6-tit__title agro"><span>Since2022</span> <br>의정부 C급상권에서 <br>
+            단돈 천만원으로 시작한 <br>돌격닭강정</h2>
         </div>
         <div class="sec6-cont">
             <div class="sec6-wrap">
@@ -3230,7 +3232,7 @@ $(function () {
 		zoomControl.style.right = '8%';
 		zoomControl.style.top = '5%';
 		zoomControl.innerHTML = `
-			<button id="zoomInBtn" style="display: flex; justify-content:center; align-items:center; width: 33px; height: 33px; background: #fff; border-bottom: 1px solid #ccc; border-radius: 5px 5px 0 0; cursor: pointer; font-size: 20px; text-align: center;"><img src="image/zoomin_icon.png" alt=""></button>
+			<button id="zoomInBtn" style="display: flex; justify-content:center; align-items:center; width: 33px; height: 33px; background: #fff; border-bottom: 1px solid #ccc; border-radius: 5px 5px 0 0; cursor: pointer; font-size: 20px; text-align: center;"><img src="image/zoomin_ficon.png" alt=""></button>
 			<button id="zoomOutBtn" style="display: flex; justify-content:center; align-items:center; width: 33px; height: 33px; background: #fff; border-radius: 0 0 5px 5px; cursor: pointer; font-size: 20px; text-align: center;"><img src="image/zoomout_icon.png" alt=""></button>
 		`;
 		mapContainer.appendChild(zoomControl);
